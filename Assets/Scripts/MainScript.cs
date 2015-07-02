@@ -36,11 +36,11 @@ public class MainScript : MonoBehaviour {
     #endregion WriteDebugLog
 
     void Awake() {
-       
+        msInstance = this;
     }
 
     void Start() {
-       
+
     }
 
    
