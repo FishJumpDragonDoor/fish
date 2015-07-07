@@ -24,9 +24,9 @@ public class PlayerControl : MonoBehaviour {
             }
         }
 #endif
-        if (transform.position.y > 6)
-            Debug.Log("win");
-        if (transform.position.y < -5)
-            Debug.Log("lost");
+        //if (transform.position.y > 6)
+        //    Debug.Log("win");
+        //if (transform.position.y < -5)
+        //    Debug.Log("lost");
 	}
 }
