@@ -57,9 +57,7 @@ public class MainScript : MonoBehaviour {
 
     void InitIOSSDKObject() {
 #if UNITY_IOS
-		string SDKObjectName = "_SDKInterface";
-		GameObject sdkObject = new GameObject(SDKObjectName,typeof(SDKInterface));
-		DontDestroyOnLoad(sdkObject);
+
 #endif
     }
 
