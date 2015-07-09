@@ -29,4 +29,12 @@ public class PlayerControl : MonoBehaviour {
         //if (transform.position.y < -5)
         //    Debug.Log("lost");
 	}
+
+    void OnTriggerEnter(Collider col)
+    {
+        if (col.tag == "Obstacle")
+        {
+            GameManager.Instance.Lost();
+        }
+    }
 }
